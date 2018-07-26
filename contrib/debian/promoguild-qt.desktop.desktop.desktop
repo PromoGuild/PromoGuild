@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=PGD
+Comment=PGD P2P Cryptocurrency
+Exec=promoguild-qt %u
+Terminal=false
+Type=Application
+Icon=promoguild128
+MimeType=x-scheme-handler/promoguild;
+Categories=Office;Finance;
+Name[en_US]=promoguild-qt.desktop.desktop

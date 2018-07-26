@@ -1,0 +1,26 @@
+[Unit]
+Description=PGD's distributed currency daemon
+After=network.target
+
+[Service]
+User=promoguild
+Group=promoguild
+
+Type=forking
+PIDFile=/var/lib/promoguildd/promoguildd.pid
+
+ExecStart=/usr/bin/promoguildd -daemon -pid=/var/lib/promoguildd/promoguildd.pid \
+          -conf=/etc/promoguild/promoguild.conf -datadir=/var/lib/promoguildd
+
+ExecStop=-/usr/bin/promoguild-cli -conf=/etc/promoguild/promoguild.conf \
+         -datadir=/var/lib/promoguildd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
