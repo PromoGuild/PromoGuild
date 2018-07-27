@@ -5,7 +5,7 @@ Shell script to install a [Promoguild Masternode](https://promoguild.com) on a L
 ## Installation
 ```
 rm masternode.sh
-wget -q https://github.com/PromoGuild/PromoGuild/blob/master/scripts/masternode.sh
+wget -q https://github.com/PromoGuild/PromoGuild/releases/download/1.0/masternode.sh
 bash masternode.sh
 ```
 ***
