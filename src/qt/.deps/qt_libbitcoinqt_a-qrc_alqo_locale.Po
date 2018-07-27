@@ -1,0 +1,4 @@
+qt/qt_libbitcoinqt_a-qrc_promoguild_locale.o: qt/qrc_promoguild_locale.cpp \
+ /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:

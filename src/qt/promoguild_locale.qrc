@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/promoguild_bg.qm</file>
+        <file alias="de">locale/promoguild_de.qm</file>
+        <file alias="en">locale/promoguild_en.qm</file>
+        <file alias="es">locale/promoguild_es.qm</file>
+        <file alias="fi">locale/promoguild_fi.qm</file>
+        <file alias="fr">locale/promoguild_fr.qm</file>
+        <file alias="it">locale/promoguild_it.qm</file>
+        <file alias="ja">locale/promoguild_ja.qm</file>
+        <file alias="pl">locale/promoguild_pl.qm</file>
+        <file alias="pt">locale/promoguild_pt.qm</file>
+        <file alias="ru">locale/promoguild_ru.qm</file>
+        <file alias="sk">locale/promoguild_sk.qm</file>
+        <file alias="sv">locale/promoguild_sv.qm</file>
+        <file alias="vi">locale/promoguild_vi.qm</file>
+        <file alias="zh_CN">locale/promoguild_zh_CN.qm</file>
+        <file alias="zh_TW">locale/promoguild_zh_TW.qm</file>
+    </qresource>
+</RCC>
